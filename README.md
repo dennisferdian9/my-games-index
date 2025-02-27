@@ -4,20 +4,20 @@ Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduct
 
 ## 📌 Page Descriptions
 
-### **🕹️ `/index.vue`**  
+### **`/index.vue`**  
 - Displays a **landing page**.  
 - URL: `/`
 
-### **🕹️ `/games/index.vue`**  
+### **`/games/index.vue`**  
 - Displays a **list of all games**.  
 - URL: `/games`
 
-### **📝 `/games/[slug].vue`**  
+### **`/games/[slug].vue`**  
 - **Dynamic route** for game details.  
 - URL example: `/games/some-game-name`  
 - Uses `slug` as a dynamic parameter.
 
-### **🆕 `/newgames/index.vue`**  
+### **`/newgames/index.vue`**  
 - Displays a **list of new games**.  
 - URL: `/newgames`
 
