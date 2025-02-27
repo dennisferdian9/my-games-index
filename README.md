@@ -2,6 +2,25 @@
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+## 📌 Page Descriptions
+
+### **🕹️ `/index.vue`**  
+- Displays a **landing page**.  
+- URL: `/`
+
+### **🕹️ `/games/index.vue`**  
+- Displays a **list of all games**.  
+- URL: `/games`
+
+### **📝 `/games/[slug].vue`**  
+- **Dynamic route** for game details.  
+- URL example: `/games/some-game-name`  
+- Uses `slug` as a dynamic parameter.
+
+### **🆕 `/newgames/index.vue`**  
+- Displays a **list of new games**.  
+- URL: `/newgames`
+
 ## Setup
 
 Make sure to install dependencies:
