@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: "Poppins", serif; 
+  --font-serif: "Domine", serif; 
+}
+
+@layer base {
+  * {
+    @apply font-poppins;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+.slide-up-enter-active, .slide-up-leave-active {
+  transition: transform 0.3s ease-in-out;
+}
+.slide-up-enter {
+  transform:  translateY(-100%); 
+ 
+}
+.slide-up-leave-to {
+  transform:  translateY(100%);
+}

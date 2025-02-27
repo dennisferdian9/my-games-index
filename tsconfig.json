@@ -1,0 +1,17 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "target": "es2022",
+  "module": "es2022",
+  "allowjs": false,
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "types": ["vue", "vite/client"],
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": ["./*"]
+    },
+  }
+}
